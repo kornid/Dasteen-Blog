@@ -605,9 +605,162 @@ footer{
     height: 435px;
     background: #E4E5E9;
     width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     }
 
+/*footer *{*/
+/*    border: 1px solid #c62727;*/
+/*}*/
 
+.footer-container {
+    width: 1249px;
+    height: 245px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 160px;
+    justify-content: space-between;
+    margin: 70px 96px auto 95px;
+}
+
+.footer-section-digitaldastin{
+    width: 284px;
+    height: 245px;
+}
+
+.footer-section-links{
+    width: 805px;
+    height: 245px;
+    display: flex;
+    gap: 95px;
+}
+
+.footer-section-digitaldastin-ifo{
+    width: 284px;
+    height: 138px;
+}
+
+.footer-card-links{
+    width: auto;
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-name-category{
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.footer-links-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #2B2C34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-links-list ul li {
+    margin-bottom: 20px; /* Устанавливает промежуток снизу каждого <li> */
+}
+
+.footer-links-list ul li:last-child {
+    margin-bottom: 0;
+}
+
+/*.footer-section {*/
+/*    flex: 1;*/
+/*}*/
+
+/*.footer-section h3 {*/
+/*    color: #001858;*/
+/*    font-size: 24px;*/
+/*    font-weight: 700;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*.footer-section h3 span {*/
+/*    color: #6246EA;*/
+/*    font-weight: 700;*/
+/*}*/
+
+/*.footer-section p {*/
+/*    color: #2B2C34;*/
+/*    font-size: 14px;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+/*.footer-section h4 {*/
+/*    font-size: 18px;*/
+/*    font-weight: 700;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*.footer-section ul {*/
+/*    list-style: none;*/
+/*    padding: 0;*/
+/*}*/
+
+/*.footer-section ul li {*/
+/*    color: #2B2C34;*/
+/*    font-size: 14px;*/
+/*    margin-bottom: 8px;*/
+/*    cursor: default;*/
+/*}*/
+
+/*.social-icons a {*/
+/*    margin-right: 10px;*/
+/*    color: #2B2C34;*/
+/*    font-size: 18px;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.social-icons a:hover {*/
+/*    color: #6246EA;*/
+/*}*/
+
+/*.footer-image img {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    display: block;*/
+/*}*/
+
+/*.footer-bottom {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    padding: 20px 94px;*/
+/*    background-color: #D3D4D8;*/
+/*    max-width: 1440px;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*.footer-bottom p {*/
+/*    color: #2B2C34;*/
+/*    font-size: 14px;*/
+/*    margin: 0;*/
+/*}*/
+
+/*.social-icons-bottom a {*/
+/*    margin-left: 10px;*/
+/*    color: #2B2C34;*/
+/*    font-size: 18px;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.social-icons-bottom a:hover {*/
+/*    color: #6246EA;*/
+/*}*/
 
 
 
