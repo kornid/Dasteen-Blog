@@ -44,31 +44,8 @@ header{
     position: fixed;
 }
 
-.logo{
+header .logo-section{
     margin: 26px auto 15px 95px;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    width: 194px;
-    height: 45px;
-}
-
-.logo-dasteen{
-    color: #001858;
-   font-size: 36px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.logo-blog{
-    width: 48px;
-    height: 27px;
-    color: #6246EA;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
 .nav-menu{
@@ -611,9 +588,9 @@ footer{
 
     }
 
-/*footer *{*/
-/*    border: 1px solid #c62727;*/
-/*}*/
+footer *{
+    border: 1px solid #c62727;
+}
 
 .footer-container {
     width: 1249px;
@@ -630,16 +607,43 @@ footer{
     height: 245px;
 }
 
+.footer-section-digitaldastin-ifo{
+    width: 284px;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-section{
+    width: 195px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 2px;
+}
+
+.logo-section h3{
+    color: #001858;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.logo-section span{
+    color: #6246EA;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .footer-section-links{
     width: 805px;
     height: 245px;
     display: flex;
     gap: 95px;
-}
-
-.footer-section-digitaldastin-ifo{
-    width: 284px;
-    height: 138px;
 }
 
 .footer-card-links{
