@@ -641,6 +641,20 @@ footer{
     line-height: normal;
 }
 
+.footer-section-digitaldastin-ifo > div > p{
+    width: 284px;
+    color: #2B2C34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.img-logo-section{
+    display: flex;
+    gap: 30px;
+}
+
 .footer-section-links{
     width: 805px;
     height: 245px;
