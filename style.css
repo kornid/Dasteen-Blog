@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    min-height: 2504px;
+    background: #FFFFFE;
+}
+
+.content-container{
+    width: 1440px;
+    height: 900px;
+    background: #EFF0F3;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 260px 0 0;
+    box-sizing: border-box;
+    position: static;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    }
+
+
+/*---------------------- Header--------------------------- */
+header{
+    width: 1440px;
+    height: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #EFF0F3;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    z-index: 10;
+    position: fixed;
+}
+
+.logo{
+    margin: 26px auto 15px 95px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 194px;
+    height: 45px;
+}
+
+.logo-dasteen{
+    color: #001858;
+   font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.logo-blog{
+    width: 48px;
+    height: 27px;
+    color: #6246EA;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav-menu{
+    margin: 31.5px 95px 29.5px 300px;
+    width: 756px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-menu nav ul{
+    display: flex;
+    gap: 50px;
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.btn-buy-me-a-coffe{
+    display: flex;
+    padding: 10px 17px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.nav-menu nav ul li:nth-child(4) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/*----------------------------- Main------------------------------ */
+
+/*------------------------- Srction-Hero--------------------------- */
+
+.section-hero{
+    width: 1440px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EFF0F3;
+}
+
+.welcome-info{
+    width: 664px;
+    height: 345px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    margin: 185px auto 284px 95px;
+}
+
+.blog-info{
+    width: 100%;
+    margin: 30px auto;
+    color: #9A9494;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    padding-left: 15px;
+}
+
+.blog-info::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 56px;
+    background: #2B2C34;
+}
+
+.welcome-text{
+    width: 617px;
+    color: #2B2C34;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subscribe-form{
+    display: flex;
+    align-items: flex-start;
+    width: 609px;
+    height: 67px;
+    gap: 20px;
+}
+
+.subscribe-form input{
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+.subscribe-form input::placeholder {
+    color: #C0C0C0;
+}
+
+.subscribe-form button{
+    display: flex;
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+
+.boy-img{
+    margin: 164px 95px 263px 116px;
+}
+
+
+/*-------------------- Srction-Browse-the-category----------------- */
+
+.section-browse-the-category{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EFF0F3;
+    flex-direction: column;
+}
+
+.title-section-browse-the-category{
+    width: 1252px;
+    height: 35px;
+    padding: 2px 0px 3px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 67px 94px 50px 94px;
+}
+
+.link-all-article{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    }
+
+.link-all-article p {
+    margin: 0;
+    color: #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    line-height: 1;
+    display: inline-block;
+}
+
+.link-all-article svg {
+    vertical-align: bottom;
+    display: inline-block;
+    transform: translateY(+3px);
+}
+
+.title-section-browse-the-category > div:first-child p {
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.box-category{
+    width: 1252px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto 96px 68px 96px;
+    gap: 37px;
+
+}
+
+.category-card{
+    width: 220px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+    background-color: white;
+}
+
+.category-info{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin: 65px auto 95px 30px;
+    gap: 30px;
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.svg-box{
+    width: 60px;
+    height: 60px;
+    border-radius: 7.458px;
+    background: #FFFFFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-category .category-card:nth-child(3){
+    background: #6246EA;
+}
+
+.box-category .category-card:nth-child(3) p{
+    color: white;
+}
+
+/*----------------------- Section-all-article------------------------ */
+
+.section-all-article{
+    width: 1252px;
+    height: 2344px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 80px 94px 80px 94px;
+    gap: 80px;
+}
+
+.container-all-article{
+    width: 1252px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.box-article{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.article-title-section-browse-the-category{
+    display: flex;
+    width: 1252px;
+    height: 35px;
+    padding: 2px 0px 3px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 904px;
+}
+
+.article-title-section-browse-the-category > div:first-child p {
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.article-container{
+    display: flex;
+    width: 300px;
+    height: 425px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #FFFFFE;
+    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+}
+
+.article-card{
+    display: flex;
+    width: 260px;
+    height: 385px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.box-img-h3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.article-date-of-publication{
+    width: 260px;
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.article-author-foto{
+    width: 57px;
+    height: 57px;
+    border-radius: 57px;
+    background: url('img/author.png') lightgray 50% / cover no-repeat;
+    }
+
+.article-author-date-of-publication{
+    width: 184px;
+    height: 46.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.2px;
+}
+
+.article-card img{
+    width: 260px;
+    height: 198px;
+    border-radius: 12.599px;
+}
+
+.article-card h3{
+    width: 260px;
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Dasteen-name{
+    width: 73px;
+    height: 21px;
+    color: #2B2C34;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Dasteen-date{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.btn-box{
+    width: 165px;
+    height: 64px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.btn-more-article{
+    display: flex;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/*-------------------------Section-subscribe-updates------------------ */
+
+.section-subscribe-updates{
+    width: 1440px;
+    height: 453px;
+    display: inline-flex;
+    padding: 58px 372px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: #EFF0F3;
+}
+
+.subscribe-updates-container{
+    width: 696px;
+    height: 337px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   border: 1px solid #c62727;
+}
+
+.mail-box-img{
+    width: 130px;
+    height: 130px;
+}
+
+
+
+/*----------------------------- Footer------------------------------ */
+
+footer{
+    height: 435px;
+    background: #E4E5E9;
+    width: 1440px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
