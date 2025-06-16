@@ -588,9 +588,9 @@ footer{
 
     }
 
-footer *{
-    border: 1px solid #c62727;
-}
+/*footer *{*/
+/*    border: 1px solid #c62727;*/
+/*}*/
 
 .footer-container {
     width: 1249px;
@@ -612,6 +612,8 @@ footer *{
     height: 138px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
 }
 
 .logo-section{
