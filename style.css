@@ -191,6 +191,10 @@ header{
 }
 .subscribe-form input::placeholder {
     color: #C0C0C0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .subscribe-form button{
@@ -512,7 +516,6 @@ header{
     justify-content: center;
     align-items: center;
     gap: 30px;
-   border: 1px solid #c62727;
 }
 
 .mail-box-img{
@@ -548,6 +551,53 @@ header{
     font-weight: 400;
     line-height: normal;
 }
+
+.subscribe-form-mail{
+    width: 630px;
+    height: 67px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.subscribe-form-mail input{
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+.subscribe-form-mail input::placeholder {
+    color: #C0C0C0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subscribe-form-mail button{
+    display: flex;
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
 
 /*----------------------------- Footer------------------------------ */
 
